@@ -163,12 +163,6 @@ class Graph:
 
         This should be done using recursion.
         """
-        if path == []:
-            path = [starting_vertex]
-
-        # base case
-        if starting_vertex not in visited:
-            visited.add(starting_vertex)
 
 
 if __name__ == '__main__':
